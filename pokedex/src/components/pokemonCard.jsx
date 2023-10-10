@@ -14,7 +14,6 @@ function pokemonCard() {
 
   return (
     <figure className="card">
-      {/* <img src={pokemon.imgSrc} /> */}
       {pokemon.imgSrc ? <img src={pokemon.imgSrc} /> : <p>???</p>}
       <figcaption>{pokemon.name}</figcaption>
     </figure>
